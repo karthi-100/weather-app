@@ -1,0 +1,13 @@
+.s-label{
+    border: 1.5px solid ;
+    border-radius: 10px;
+    background:none;
+}
+.s-label:focus{
+    -webkit-box-shadow:0px 0px 34px 5px rgba(45,255,196,0.9);
+-moz-box-shadow: 0px 0px 34px 5px rgba(45,255,196,0.9);
+box-shadow: 0px 0px 34px 5px rgba(45,255,196,0.9);
+}
+input[type="button"]{
+    border-radius: 10px;
+}
