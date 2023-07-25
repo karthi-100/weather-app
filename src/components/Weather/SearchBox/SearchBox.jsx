@@ -27,7 +27,7 @@ function SearchBox() {
         <input type="button" value="submit" onClick={handleClick} />
         </div>
         <div className="content">
-          {typeof weather.main==='undefined'?<div className='s-value'>Enter a valid city name</div>:<WeatherContent className="transist" weather={weather}/>}
+          {typeof weather.main==='undefined'?<div className='content s-value'>Enter a valid city name</div>:<WeatherContent className="content" weather={weather}/>}
         </div>
     </div>
   )
