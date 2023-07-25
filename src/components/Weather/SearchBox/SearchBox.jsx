@@ -4,6 +4,7 @@ import { useState } from 'react'
 import WeatherContent from './WeatherContent/WeatherContent'
 
 function SearchBox() {
+  
     const [city,setCity]=useState("")
     const [weather,setWeather]=useState([{}])
     const handleChange=(e)=>{
@@ -11,8 +12,7 @@ function SearchBox() {
     }
     const handleClick=(e)=>{
         e.preventDefault();
-        const apiKey="6aaffefcd2897eec1631bc4c79ffd80d"
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`).then(res=>res.json()).then(
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${import.meta.env.VITE_WEATHER_API_KEY}`).then(res=>res.json()).then(
           data=>{setWeather(data)
           console.log(data);
           setCity("")

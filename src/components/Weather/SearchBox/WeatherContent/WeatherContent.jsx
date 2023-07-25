@@ -23,7 +23,7 @@ const temp=prop.weather.main.temp
             <div className="small">
                 <img src={Humidity} alt=""/>
                 <div className="c-humidity">{humidity} %</div>
-                <div></div>
+               
             </div>
             <div className="small">
                 <img src={Wind} alt=""/>
