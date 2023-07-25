@@ -1,0 +1,19 @@
+img {
+    width: 10rem;
+    transition: 2s;
+}
+
+.small {
+    display: flex;
+    align-items: center;
+}
+
+.small img {
+    width: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+.temprature {
+    font-weight: bold;
+    font-size: 3rem;
+}

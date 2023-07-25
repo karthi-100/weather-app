@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -7,4 +7,21 @@
     flex-direction: column;
     text-align: center;
     background-color: #00b4d8;
+}
+
+.c-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.small {
+    font-size: small;
+    font-weight: bold;
+}
+
+.s-icons,
+.s-humididty {
+    width: 1.35rem;
+    margin: 0.7rem 0.5rem 0;
 }

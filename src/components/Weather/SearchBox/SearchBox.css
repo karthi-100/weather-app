@@ -1,5 +1,5 @@
 .s-value {
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
 }
 
 .s-label {
@@ -12,7 +12,6 @@
 }
 
 .s-label:focus {
-    border: 0;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -21,7 +20,11 @@ input[type="button"] {
     padding: 0.5rem 1rem;
 }
 
-img {
-    width: 15rem;
-    transition: 2s;
+.s-name {
+    margin: 1rem 0 0;
+    font-weight: bold;
+}
+
+.transist {
+    transform: translate(2);
 }
